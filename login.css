@@ -1,0 +1,116 @@
+
+  body {
+    margin: 0;
+    background-color: #f0f2f5;
+  }
+
+  header {
+    background-color: #000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+  }
+
+  header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  header .btn-login {
+    background-color: #0056ff;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .container {
+    display: flex;
+    height: calc(100vh - 70px);
+  }
+
+  .login-box {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+
+  .login-box img {
+    width: 120px;
+    margin-bottom: 10px;
+  }
+
+  .login-box h2 {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  .login-box p {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #444;
+  }
+
+  .login-box p a {
+    color: #0056ff;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  form {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .esqueci-senha {
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 15px;
+  }
+
+  .btn-confirmar {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .imagem-estadio {
+    flex: 1;
+    background: url("https://projetosacusticos.com.br/wp-content/uploads/2019/12/arena-gremio.jpg") center center/cover no-repeat;
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+    .imagem-estadio {
+      height: 300px;
+    }
+  }

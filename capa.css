@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+}
+header {
+    background-color: #000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+header.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+header.btn-login {
+    background-color: #0056ff;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.banner {
+    position: relative;
+}
+.banner img {
+    width: 100%;
+    height: auto;
+}
+.banner .info {
+    ruby-position: after;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+}
+.info h2 {
+    margin: 0 0 10px;
+}
+.btn-ingresso {
+    background-color: #0056ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.competicoes {
+    padding: 20px 50px;
+    background-color: white;
+    margin-top: 10px;
+}
+.competicoes a {
+    color: #0056ff;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
