@@ -19,23 +19,6 @@
     padding: 10px 30px;
   }
   
-  .logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  
-  .logo img {
-    width: 80px;
-  }
-  
-  .logo-text {
-    font-size: 14px;
-  }
-  
-  .logo-text strong {
-    font-size: 16px;
-  }
   
   nav {
     display: flex;
@@ -49,20 +32,6 @@
     font-weight: bold;
   }
   
-  nav button {
-    background-color: #287bff;
-    color: white;
-    border: none;
-    padding: 6px 15px;
-    border-radius: 6px;
-    cursor: pointer;
-  }
-  
-  .banner img {
-    width: 100%;
-    height: auto;
-  }
-  
   .jogo-info {
     display: flex;
     justify-content: space-around;
@@ -70,7 +39,6 @@
     background-color: #000;
     color: white;
     padding: 20px 10px;
-    flex-wrap: wrap;
   }
   
   .time-logo {
@@ -84,56 +52,10 @@
     height: 50px;
   }
   
-  .time-logo span {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  .detalhes {
-    text-align: left;
-    max-width: 250px;
-  }
-  
-  .detalhes h3 {
-    color: #50a0ff;
-    margin-bottom: 5px;
-  }
-  
-  .botao button {
-    background-color: #287bff;
-    color: white;
-    padding: 10px 18px;
-    border: none;
-    border-radius: 6px;
-    font-weight: bold;
-    cursor: pointer;
-  }
-  
   .competicoes {
     background-color: white;
     text-align: center;
     padding: 25px 10px;
-  }
-  
-  .competicoes h4 {
-    font-size: 20px;
-    margin-bottom: 15px;
-  }
-  
-  .competicoes h4 span {
-    color: #287bff;
-  }
-  
-  .lista {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  
-  .lista span {
-    font-weight: 500;
-    font-size: 16px;
   }
   
   .lista strong {
