@@ -1,0 +1,62 @@
+
+body {
+    margin: 0;
+    background-color: #f0f2f5;
+  }
+
+  header {
+    background-color: #000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+  }
+
+  .container {
+    display: flex;
+    height: calc(100vh - 70px);
+  }
+
+  .login-box {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+
+  form {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+
+  .btn-confirmar {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+  }
+
+  .img1 {
+    width: 160px; 
+    height: auto; 
+  }
+  
+  .color{
+    color: #ccc;
+  }
+

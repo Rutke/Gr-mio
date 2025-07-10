@@ -38,7 +38,8 @@
     align-items: center;
     background-color: #000;
     color: white;
-    padding: 20px 10px;
+    padding: 20px 5px;
+    margin-top: -10px;
   }
   
   .time-logo {
@@ -59,6 +60,10 @@
   }
   
   .lista strong {
+    color: #287bff;
+  }
+
+  .color{
     color: #287bff;
   }
   
